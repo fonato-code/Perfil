@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luiz Otávio — Projetos GitHub</title>
+  <link rel="stylesheet" href="src/css/bootsrtap-v5.3.8.css">
+  <link rel="stylesheet" href="src/fontawesome5pro/fontawesome-pro-5.8.2.css">
+  <style>
+    :root {
+      --hero-gradient: linear-gradient(135deg, #0d1117 0%, #161b22 45%, #21262d 100%);
+    }
+
+    body {
+      background-color: #f6f8fa;
+      min-height: 100vh;
+    }
+
+    .hero {
+      background: var(--hero-gradient);
+      color: #e6edf3;
+      padding: 3.5rem 0 4rem;
+      border-bottom: 1px solid #30363d;
+    }
+
+    .hero .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 3px solid #388bfd;
+      background: #21262d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      color: #58a6ff;
+    }
+
+    .hero a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    .hero a:hover {
+      color: #79c0ff;
+      text-decoration: underline;
+    }
+
+    .project-card {
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      height: 100%;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.12);
+    }
+
+    .project-card .card-header {
+      background: #fff;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      font-weight: 600;
+    }
+
+    .badge-private {
+      background-color: #6e7681;
+    }
+
+    .badge-public {
+      background-color: #238636;
+    }
+
+    footer {
+      color: #656d76;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-auto">
+          <div class="avatar" aria-hidden="true">
+            <i class="fab fa-github"></i>
+          </div>
+        </div>
+        <div class="col">
+          <p class="text-secondary mb-1 small text-uppercase letter-spacing">Central de projetos</p>
+          <h1 class="h2 mb-2 fw-bold">Luiz Otávio</h1>
+          <p class="mb-2 opacity-75">
+            <i class="fas fa-building me-1"></i> Fadami
+            <span class="mx-2">·</span>
+            <i class="fas fa-map-marker-alt me-1"></i> Brasil / Rio de Janeiro
+          </p>
+          <a href="https://github.com/fonato-code" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm mt-1">
+            <i class="fab fa-github me-1"></i> @fonato-code
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-4">
+      <div>
+        <h2 class="h4 mb-1">Projetos</h2>
+        <p class="text-muted mb-0 small">Repositórios e demos publicadas no GitHub Pages.</p>
+      </div>
+      <span class="badge text-bg-secondary rounded-pill">7 projetos</span>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+
+      <div class="col">
+        <article class="card project-card shadow-sm">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span>Financeiro</span>
+            <span class="badge badge-public rounded-pill">Public</span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-column gap-2">
+              <a href="https://github.com/fonato-code/Financeiro" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i> Repositório
+              </a>
+              <a href="https://fonato-code.github.io/Financeiro" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fas fa-external-link-alt me-1"></i> Ver site
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card project-card shadow-sm">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span>DataConverter</span>
+            <span class="badge badge-public rounded-pill">Public</span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-column gap-2">
+              <a href="https://github.com/fonato-code/DataConverter" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i> Repositório
+              </a>
+              <a href="https://fonato-code.github.io/DataConverter" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fas fa-external-link-alt me-1"></i> Ver site
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card project-card shadow-sm">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span>StreetPolylineMaker</span>
+            <span class="badge badge-public rounded-pill">Public</span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-column gap-2">
+              <a href="https://github.com/fonato-code/StreetPolylineMaker" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i> Repositório
+              </a>
+              <a href="https://fonato-code.github.io/StreetPolylineMaker" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fas fa-external-link-alt me-1"></i> Ver site
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card project-card shadow-sm border-secondary">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span>DatabaseDiagram</span>
+            <span class="badge badge-private rounded-pill">Private</span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-column gap-2">
+              <a href="https://github.com/fonato-code/DatabaseDiagram" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i> Repositório
+              </a>
+              <span class="btn btn-secondary btn-sm disabled" title="Repositório privado — sem demo pública">
+                <i class="fas fa-lock me-1"></i> Site indisponível
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card project-card shadow-sm">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span>SqlHelper</span>
+            <span class="badge badge-public rounded-pill">Public</span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-column gap-2">
+              <a href="https://github.com/fonato-code/SqlHelper" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i> Repositório
+              </a>
+              <a href="https://fonato-code.github.io/SqlHelper" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fas fa-external-link-alt me-1"></i> Ver site
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card project-card shadow-sm">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span>JsonViewer</span>
+            <span class="badge badge-public rounded-pill">Public</span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-column gap-2">
+              <a href="https://github.com/fonato-code/JsonViewer" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i> Repositório
+              </a>
+              <a href="https://fonato-code.github.io/JsonViewer" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fas fa-external-link-alt me-1"></i> Ver site
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card project-card shadow-sm">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span>IISLogViewer</span>
+            <span class="badge badge-public rounded-pill">Public</span>
+          </div>
+          <div class="card-body">
+            <div class="d-flex flex-column gap-2">
+              <a href="https://github.com/fonato-code/IISLogViewer" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm">
+                <i class="fab fa-github me-1"></i> Repositório
+              </a>
+              <a href="https://fonato-code.github.io/IISLogViewer" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fas fa-external-link-alt me-1"></i> Ver site
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="container pb-5 text-center">
+    <hr class="text-muted opacity-25">
+    <p class="mb-0">
+      <a href="https://github.com/fonato-code" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-muted">
+        github.com/fonato-code
+      </a>
+    </p>
+  </footer>
+
+  <script src="src/js/bootstrap-v5.3.8.js"></script>
+</body>
+</html>
